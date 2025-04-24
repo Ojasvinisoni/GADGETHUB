@@ -1,0 +1,100 @@
+body {
+    background-color: #f3e5f5; /* Lavender pink */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-custom {
+    background: linear-gradient(135deg, #ce93d8, #f06292); /* Lavender to pink */
+    box-shadow: 0 2px 5px rgba(136, 14, 79, 0.15);
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: #fce4ec;
+}
+
+.navbar-custom .nav-link {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #f3e5f5;
+}
+
+.myform {
+    margin-top: 25px;
+    border-radius: 8px;
+    padding: 30px;
+    background: #f8bbd0;
+    box-shadow: 0 4px 12px rgba(136, 14, 79, 0.1);
+}
+
+.myform .form-group {
+    margin-bottom: 20px;
+}
+
+.myform label {
+    font-weight: 500;
+    color: #6a1b9a;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.myform .form-control {
+    border: 1px solid #ce93d8;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myform .form-control:focus {
+    border-color: #ab47bc;
+    box-shadow: 0 0 5px rgba(171, 71, 188, 0.3);
+}
+
+.myform .btn-primary,
+.myform .btn-danger {
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(136, 14, 79, 0.15);
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.myform .btn-primary {
+    background-color: #ba68c8;
+    color: #fff;
+}
+
+.myform .btn-primary:hover {
+    background-color: #ab47bc;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(136, 14, 79, 0.2);
+}
+
+.myform .btn-danger {
+    background-color: #e57373;
+    color: #fff;
+}
+
+.myform .btn-danger:hover {
+    background-color: #d32f2f;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(136, 14, 79, 0.2);
+}

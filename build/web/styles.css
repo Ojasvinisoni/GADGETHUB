@@ -1,0 +1,100 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Clean, readable font */
+    background-color: #f4f4f4; /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.myform {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Very subtle shadow */
+    border-radius: 12px;
+    padding: 60px;
+    margin: 60px auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+.myform .form-group {
+    margin-bottom: 35px;
+}
+
+.myform label {
+    font-weight: 500;
+    color: #444;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.myform .form-control {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.myform .form-control:focus {
+    border-color: #aaa;
+    outline: none; /* Remove default focus outline */
+}
+
+.myform .btn-primary, .myform .btn-danger {
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.myform .btn-primary {
+    background-color: #007bff; /* Standard blue */
+    color: white;
+}
+
+.myform .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.myform .btn-danger {
+    background-color: #dc3545; /* Standard red */
+    color: white;
+}
+
+.myform .btn-danger:hover {
+    background-color: #b02a37;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 450px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.box img {
+    height: 140px;
+    max-width: 140px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.box h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.box p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+}
