@@ -1,2 +1,2 @@
 # GADGETHUB
-GADGETHUB- We Specialzed in Electronics
+GADGETHUB- We Specialized in Electronics
