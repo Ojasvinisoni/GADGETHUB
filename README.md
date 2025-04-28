@@ -1,5 +1,6 @@
 # GADGETHUB
 GADGETHUB- We Specialized in Electronics
+
 GadgetHub is a premier online platform for electronics enthusiasts to seamlessly buy, sell, and manage a wide range of tech products.
 It provides a trusted space for customers and vendors to explore, discover, and transact across diverse gadget categories with ease.
 We focus on building a dynamic, user-friendly, and mobile-compatible environment to simplify tech shopping and management.
