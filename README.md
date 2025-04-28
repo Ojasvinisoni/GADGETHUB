@@ -85,16 +85,7 @@ Version Control: Git, GitHub
 
 Deployment Tool: GitBash
 
-🚀 How to Run Locally
-Clone the repository:
-
-bash
-Copy
-Edit
 git clone (https://github.com/Ojasvinisoni/GADGETHUB.git)
-Configure your Oracle database and update the DB credentials.
-
-Deploy the project on a Java EE server like Apache Tomcat.
 
 📬 Contact
 For queries, collaborations, or support:
